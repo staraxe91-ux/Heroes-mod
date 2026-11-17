@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "supermod",
+  "version": "${version}",
+  "name": "Super Power Mod",
+  "description": "Skill super power: Fire Burst & Energy Beam.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.supermod.SuperMod"],
+    "client": ["com.supermod.client.SuperModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}

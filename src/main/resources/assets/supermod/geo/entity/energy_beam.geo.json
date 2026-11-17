@@ -1,0 +1,47 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.energy_beam",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [0, 0, 0]
+      },
+      "bones": [
+        {
+          "name": "beam",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-1, -1, 0],
+              "size": [2, 2, 192],
+              "uv": {
+                "north": {"uv": [0, 0], "uv_size": [8, 16]},
+                "south": {"uv": [0, 0], "uv_size": [8, 16]},
+                "east":  {"uv": [0, 0], "uv_size": [8, 16]},
+                "west":  {"uv": [0, 0], "uv_size": [8, 16]},
+                "up":    {"uv": [0, 0], "uv_size": [8, 16]},
+                "down":  {"uv": [0, 0], "uv_size": [8, 16]}
+              }
+            },
+            {
+              "origin": [-3, -3, 0],
+              "size": [6, 6, 192],
+              "uv": {
+                "north": {"uv": [8, 0], "uv_size": [8, 16]},
+                "south": {"uv": [8, 0], "uv_size": [8, 16]},
+                "east":  {"uv": [8, 0], "uv_size": [8, 16]},
+                "west":  {"uv": [8, 0], "uv_size": [8, 16]},
+                "up":    {"uv": [8, 0], "uv_size": [8, 16]},
+                "down":  {"uv": [8, 0], "uv_size": [8, 16]}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
